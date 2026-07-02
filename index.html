@@ -4,19 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Search App</title>
+
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
+
     <div id="container">
-        <h1>Movie Searching App🎬</h1>
-            
+
+        <h1>🎬 Movie Search App</h1>
+
         <div id="search-field">
-            <input type="text" id="searchInput" placeholder="Search movie🎬">
-            <button id="search-btn">Search</button>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search your favourite movie...">
+
+            <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Search
+            </button>
+
         </div>
+
+        <!-- Search Results -->
         <div id="movieCard"></div>
+
     </div>
 
     <script src="./app.js"></script>
+
 </body>
 </html>
